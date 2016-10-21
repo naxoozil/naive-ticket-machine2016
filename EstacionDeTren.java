@@ -18,7 +18,7 @@ public class EstacionDeTren
 		dineroTotal = 0;
        }
   
-    public void printTotalMoney()
+    public void imprimirDineroTotal()
 	{
 		dineroTotal = maquina1.obtenerTotal();
 		dineroTotal = dineroTotal + maquina2.obtenerTotal();
