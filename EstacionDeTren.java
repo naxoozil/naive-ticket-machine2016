@@ -5,13 +5,13 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class TrainStation
+public class EstacionDeTren
 {
 	private MaquinaDeTickets maquina1;
 	private MaquinaDeTickets maquina2;
 	private int dineroTotal;
 
-	public TrainStation()
+	public EstacionDeTren()
 	{
 		maquina1 = new MaquinaDeTickets(300);
 		maquina2 = new MaquinaDeTickets(200);
