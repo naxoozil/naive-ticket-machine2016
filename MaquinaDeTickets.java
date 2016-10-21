@@ -54,6 +54,11 @@ public class MaquinaDeTickets
     {
         dineroIntroducido = dineroIntroducido + cantidad;
     }
+    
+    public int obtenerTotal()
+    {
+        return total;
+    }
 
     /**
      * Print a ticket.
