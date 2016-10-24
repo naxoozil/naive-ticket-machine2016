@@ -80,4 +80,12 @@ public class MaquinaDeTickets
         // Clear the balance.
         dineroIntroducido = 0;
     }
+    
+    /**
+     * Changes the price of the ticket into a new price
+     */
+    public void setPrecio(int nuevoPrecio)
+    {
+        precio = nuevoPrecio;
+    }
 }
