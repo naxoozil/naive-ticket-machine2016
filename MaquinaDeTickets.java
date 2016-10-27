@@ -89,10 +89,19 @@ public class MaquinaDeTickets
         precio = nuevoPrecio;
     }
     
-    
+    /**
+     * Metodo que imprime por pantalla un mensaje
+     */
     public void avisar()
     {
         System.out.println("Por favor, inserta la cantidad de dinero necesaria");
     }
     
+    /**
+     * Imprime un mensaje por pantalla con el precio del billete
+     */
+    public void mostrarPrecio()
+    {
+        System.out.println("El precio del billete es " + precio + " euro(s)");
+    }
 }
