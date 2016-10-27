@@ -88,4 +88,11 @@ public class MaquinaDeTickets
     {
         precio = nuevoPrecio;
     }
+    
+    
+    public void avisar()
+    {
+        System.out.println("Por favor, inserta la cantidad de dinero necesaria");
+    }
+    
 }
