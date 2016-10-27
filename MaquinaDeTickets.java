@@ -23,9 +23,10 @@ public class MaquinaDeTickets
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public MaquinaDeTickets(int coste)
+    public MaquinaDeTickets()
     {
-        precio = coste;
+        //El precio del billete sera siempre de 800
+        precio = 800;
         dineroIntroducido = 0;
         total = 0;
     }
